@@ -1,0 +1,12 @@
+$ORIGIN 0.16.172.in-addr.arpa.
+$TTL    3600
+@       IN      SOA     ns.smtpsend.co.jp. root.ns.smtpsend.co.jp. (
+                                2016062101      ; Serial
+                                3600            ; Refresh
+                                900             ; Retry
+                                3600000         ; Expire
+                                3600 )          ; Minimum
+                IN      NS      ns.smtpsend.co.jp.
+;
+10              IN      PTR     smtp-relay1.smtprelay.co.jp.
+11              IN      PTR     smtp-send1.smtpsend.co.jp.

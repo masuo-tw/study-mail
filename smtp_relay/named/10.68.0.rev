@@ -1,0 +1,12 @@
+$ORIGIN 0.68.10.in-addr.arpa.
+$TTL	3600
+@	IN	SOA	ns.smtprecv.co.jp. root.ns.smtprecv.co.jp. (
+				2016062101      ; Serial
+				3600		; Refresh
+				900		; Retry
+				3600000		; Expire
+				3600 )		; Minimum
+          	    IN	NS	ns.smtprecv.co.jp.
+;
+10                  IN  PTR     smtp-relay1.smtprelay.co.jp.
+12                  IN  PTR     smtp-recv1.smtprecv.co.jp.

@@ -1,0 +1,12 @@
+$TTL	3600
+@	IN	SOA	smtp-relay1.smtprelay.co.jp. root.smtp-relay1.smtpsend.co.jp. (
+				2016062101      ; Serial
+				3600		; Refresh
+				900		; Retry
+				3600000		; Expire
+				3600 )		; Minimum
+smtprelay.co.jp.	IN	NS	smtp-relay1.smtprelay.co.jp.
+smtprelay.co.jp.	IN	MX	10 smtp-relay1.smtprelay.co.jp.
+smtp-relay1	IN	A	172.16.0.10
+smtp-relay1	IN	A	10.68.0.10
+

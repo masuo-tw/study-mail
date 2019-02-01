@@ -1,0 +1,11 @@
+$TTL	3600
+@	IN	SOA	ns.smtpsend.co.jp. root.ns.smtpsend.co.jp. (
+				2016062101      ; Serial
+				3600		; Refresh
+				900		; Retry
+				3600000		; Expire
+				3600 )		; Minimum
+smtpsend.co.jp.	IN	NS	ns.smtpsend.co.jp.
+smtpsend.co.jp.	IN	MX	10 smtp-send1.smtpsend.co.jp.
+smtp-send1	IN	A	172.16.0.11
+ns.smtpsend.co.jp. IN	A	172.16.0.10

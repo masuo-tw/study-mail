@@ -1,0 +1,12 @@
+$TTL	3600
+@	IN	SOA	ns.smtprecv.co.jp. root.ns.smtprecv.co.jp. (
+				2016070101      ; Serial
+				3600		; Refresh
+				900		; Retry
+				3600000		; Expire
+				3600 )		; Minimum
+smtprecv.co.jp.	    IN	NS	ns.smtprecv.co.jp.
+smtprecv.co.jp.	    IN	MX	10 smtp-recv1.smtprecv.co.jp.
+smtp-recv1	    IN	A	10.68.0.12
+ns.smtprecv.co.jp.  IN  A       10.68.0.10
+
